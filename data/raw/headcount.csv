@@ -1,0 +1,509 @@
+employee_id,employee_name,employee_email,gender,country,region,department,role,seniority,hire_date,termination_date,employment_status
+E0001,Daniel Taylor,daniel.taylor.e0001@workbridge.com,Female,Australia,APAC,Engineering,HR Specialist,Semi Senior,2024-03-25,,active
+E0002,Daniel Rodriguez,daniel.rodriguez.e0002@workbridge.com,Not specified,India,Asia-Pacific,Customer Success,Data Analyst,Senior,2025-02-27,,Active
+E0003,Sofia Rodriguez,sofia.rodriguez.e0003@workbridge.com,Unknown,Spain,Europe Middle East Africa,Data,HR Specialist,Senior,2024-08-24,,Active
+E0004,Daniel Garcia,daniel.garcia.e0004@workbridge.com,N/A,United States,North America,Data,Data Analyst,Senior,2025-02-04,,ACTIVE
+E0005,Olivia Martinez,olivia.martinez.e0005@workbridge.com,,Germany,EMEA,HR,Data Engineer,Semi Senior,2023-04-29,,ACTIVE
+E0006,John Gonzalez,john.gonzalez.e0006@workbridge.com,Unknown,Japan,Asia-Pacific,Operations,Project Manager,Senior,2024-06-26,,ACTIVE
+E0007,Ava Garcia,ava.garcia.e0007@workbridge.com,Unknown,Singapore,Asia-Pacific,Engineering,Data Analyst,Junior,2023-09-05,,active
+E0008,Olivia Ruiz,olivia.ruiz.e0008@workbridge.com,F,Brazil,latam,Engineering,Business Analyst,Semi Senior,2023-05-19,,Active
+E0009,Mia Johnson,mia.johnson.e0009@workbridge.com,,Japan,Asia Pacific,Finance,Project Manager,Lead,2025-08-26,,active
+E0010,Mia Davis,mia.davis.e0010@workbridge.com,Female,Argentina,latam,Engineering,Project Manager,Semi Senior,2023-05-05,,Active
+E0011,James Moore,james.moore.e0011@workbridge.com,Female,United Kingdom,Europe Middle East Africa,HR,Data Analyst,Junior,2024-05-26,,active
+E0012,Valentina Smith,valentina.smith.e0012@workbridge.com,F,United States,NA,Finance,Software Engineer,Lead,2025-04-12,,active
+E0013,Emily Lopez,emily.lopez.e0013@workbridge.com,F,United Kingdom,EMEA,Data,Business Analyst,Junior,2026-11-27,,ACTIVE
+E0014,Daniel Brown,daniel.brown.e0014@workbridge.com,f,Spain,EMEA,Engineering,Data Analyst,Junior,2023-04-13,,ACTIVE
+E0015,Lucas Silva,lucas.silva.e0015@workbridge.com,Not specified,Canada,north america,Data,Project Manager,Senior,2023-09-03,,ACTIVE
+E0016,Mateo Sanchez,mateo.sanchez.e0016@workbridge.com,f,Germany,Europe Middle East Africa,Operations,Project Manager,Senior,2026-10-03,,active
+E0017,Mia Martinez,mia.martinez.e0017@workbridge.com,Unknown,Argentina,Latin America,Engineering,Software Engineer,Junior,2025-07-27,2025-07-22,terminated
+E0018,Benjamin Miller,benjamin.miller.e0018@workbridge.com,Not specified,Canada,north america,HR,Software Engineer,Junior,2024-08-06,,ACTIVE
+E0019,Michael Lopez,michael.lopez.e0019@workbridge.com,M,Canada,north america,Engineering,HR Specialist,Senior,2023-08-25,,ACTIVE
+E0020,Olivia Thomas,olivia.thomas.e0020@workbridge.com,Male,Canada,NA,Operations,Data Engineer,Senior,2025-11-01,,active
+E0021,Sofia Johnson,sofia.johnson.e0021@workbridge.com,f,Canada,NA,HR,Data Analyst,Senior,2026-02-03,,ACTIVE
+E0022,Camila Gonzalez,camila.gonzalez.e0022@workbridge.com,Unknown,Canada,north america,Data,Software Engineer,Lead,2023-09-19,2025-12-03,terminated
+E0023,John Garcia,john.garcia.e0023@workbridge.com,f,United States,North America,Finance,HR Specialist,Semi Senior,2023-11-29,,active
+E0024,Emily Davis,emily.davis.e0024@workbridge.com,F,Germany,Europe,Operations,Data Engineer,Semi Senior,2023-08-10,,active
+E0025,Mateo Anderson,mateo.anderson.e0025@workbridge.com,,Brazil,Latin America,Data,Data Analyst,Senior,2025-03-27,,active
+E0026,Ava Thomas,ava.thomas.e0026@workbridge.com,Not specified,Canada,North America,HR,Data Engineer,Senior,2023-03-20,2025-10-24,Terminated
+E0027,Noah Anderson,noah.anderson.e0027@workbridge.com,Male,Mexico,Latin America,HR,Software Engineer,Junior,2023-01-04,,ACTIVE
+E0028,Valentina Wilson,valentina.wilson.e0028@workbridge.com,Unknown,Netherlands,EMEA,Finance,HR Specialist,Lead,2024-09-25,,Active
+E0029,Benjamin Wilson,benjamin.wilson.e0029@workbridge.com,F,Canada,north america,HR,HR Specialist,Senior,2025-04-11,,active
+E0030,Emily Brown,emily.brown.e0030@workbridge.com,Not specified,Singapore,Asia Pacific,HR,HR Specialist,Senior,2025-06-24,,ACTIVE
+E0031,Isabella Garcia,isabella.garcia.e0031@workbridge.com,Female,Brazil,latam,HR,Data Analyst,Lead,2026-10-09,,active
+E0032,Lucas Lopez,lucas.lopez.e0032@workbridge.com,Not specified,Japan,APAC,Finance,Data Engineer,Semi Senior,2026-11-27,,Active
+E0033,James Lopez,james.lopez.e0033@workbridge.com,m,India,Asia-Pacific,HR,Business Analyst,Senior,2026-02-15,,active
+E0034,Emily Romero,emily.romero.e0034@workbridge.com,Male,Singapore,Asia-Pacific,Operations,Business Analyst,Lead,2026-01-27,,active
+E0035,Mateo Perez,mateo.perez.e0035@workbridge.com,m,Canada,NA,Engineering,Data Engineer,Semi Senior,2025-06-19,2026-01-11,terminated
+E0036,Michael Romero,michael.romero.e0036@workbridge.com,Male,Japan,APAC,Finance,Project Manager,Junior,2024-03-14,2025-07-04,Terminated
+E0037,Valentina Thomas,valentina.thomas.e0037@workbridge.com,Unknown,Singapore,Asia Pacific,Engineering,Software Engineer,Lead,2023-01-13,,Active
+E0038,Valentina Brown,valentina.brown.e0038@workbridge.com,Male,India,Asia-Pacific,HR,Data Analyst,Lead,2025-03-07,,ACTIVE
+E0039,Liam Smith,liam.smith.e0039@workbridge.com,M,Argentina,Latin America,Engineering,Project Manager,Senior,2026-08-09,,Active
+E0040,Mateo Martinez,mateo.martinez.e0040@workbridge.com,Male,United Kingdom,Europe Middle East Africa,HR,Data Analyst,Senior,2024-07-23,,Active
+E0041,Noah Garcia,noah.garcia.e0041@workbridge.com,Unknown,United States,NA,Engineering,Project Manager,Junior,2026-08-27,2026-10-29,terminated
+E0042,Martina Miller,martina.miller.e0042@workbridge.com,Not specified,Canada,NA,Operations,Data Analyst,Junior,2024-06-08,,active
+E0043,Valentina Gonzalez,valentina.gonzalez.e0043@workbridge.com,f,Netherlands,Europe Middle East Africa,Customer Success,Data Engineer,Junior,2026-10-19,,Active
+E0044,Emma Anderson,emma.anderson.e0044@workbridge.com,,Netherlands,Europe Middle East Africa,Operations,Data Analyst,Senior,2023-09-05,,ACTIVE
+E0045,James Lopez,james.lopez.e0045@workbridge.com,Male,Mexico,Latin America,HR,Business Analyst,Lead,2025-09-30,2026-06-02,TERMINATED
+E0046,Olivia Rodriguez,olivia.rodriguez.e0046@workbridge.com,Male,Singapore,Asia Pacific,HR,Business Analyst,Lead,2026-04-28,,active
+E0047,Emily Gonzalez,emily.gonzalez.e0047@workbridge.com,M,Spain,Europe,Operations,Business Analyst,Senior,2025-10-09,,active
+E0048,Emily Moore,emily.moore.e0048@workbridge.com,f,Colombia,latam,Customer Success,HR Specialist,Lead,2024-01-27,2026-04-03,Terminated
+E0049,Lucas Wilson,lucas.wilson.e0049@workbridge.com,N/A,India,Asia Pacific,HR,Business Analyst,Senior,2023-07-10,,Active
+E0050,Benjamin Rodriguez,benjamin.rodriguez.e0050@workbridge.com,Female,Australia,Asia-Pacific,Engineering,Software Engineer,Junior,2024-12-21,,Active
+E0051,Lucia Ruiz,lucia.ruiz.e0051@workbridge.com,N/A,United States,NA,Engineering,Software Engineer,Semi Senior,2024-03-19,,Active
+E0052,Mateo Smith,mateo.smith.e0052@workbridge.com,f,Germany,Europe,Customer Success,Data Engineer,Lead,2024-09-11,2026-05-10,terminated
+E0053,James Perez,james.perez.e0053@workbridge.com,Female,Argentina,Latin America,Finance,Data Analyst,Junior,2026-03-21,,Active
+E0054,Emma Lopez,emma.lopez.e0054@workbridge.com,f,Singapore,Asia Pacific,Data,Data Engineer,Junior,2023-06-01,,ACTIVE
+E0055,Benjamin Silva,benjamin.silva.e0055@workbridge.com,M,Japan,Asia-Pacific,HR,Data Analyst,Junior,2025-12-06,,Active
+E0056,Lucas Brown,lucas.brown.e0056@workbridge.com,Not specified,United States,NA,Data,Project Manager,Lead,2024-06-25,,active
+E0057,Benjamin Romero,benjamin.romero.e0057@workbridge.com,f,Australia,APAC,Operations,HR Specialist,Semi Senior,2023-03-08,,ACTIVE
+E0058,Mateo Lopez,mateo.lopez.e0058@workbridge.com,Female,India,APAC,Operations,Business Analyst,Senior,2026-01-20,,active
+E0059,Valentina Rodriguez,valentina.rodriguez.e0059@workbridge.com,,India,Asia Pacific,Data,Business Analyst,Junior,2025-08-17,,ACTIVE
+E0060,Lucas Silva,lucas.silva.e0060@workbridge.com,Not specified,Australia,Asia-Pacific,Operations,Business Analyst,Junior,2026-05-21,,active
+E0061,Liam Silva,liam.silva.e0061@workbridge.com,m,Canada,North America,Data,Project Manager,Senior,2025-11-28,,Active
+E0062,Ava Thomas,ava.thomas.e0062@workbridge.com,,Australia,Asia Pacific,Customer Success,Project Manager,Junior,2024-10-19,,active
+E0063,Valentina Ruiz,valentina.ruiz.e0063@workbridge.com,f,India,Asia-Pacific,Finance,Project Manager,Junior,2024-10-06,,active
+E0064,James Smith,james.smith.e0064@workbridge.com,F,Canada,north america,Engineering,Software Engineer,Lead,2026-06-29,,ACTIVE
+E0065,Lucas Brown,lucas.brown.e0065@workbridge.com,m,India,APAC,HR,Project Manager,Junior,2023-03-01,,ACTIVE
+E0066,Isabella Taylor,isabella.taylor.e0066@workbridge.com,N/A,United States,north america,Customer Success,Software Engineer,Lead,2025-08-03,,ACTIVE
+E0067,Valentina Gonzalez,valentina.gonzalez.e0067@workbridge.com,Unknown,Singapore,APAC,Operations,Project Manager,Senior,2024-05-14,,active
+E0068,Lucia Taylor,lucia.taylor.e0068@workbridge.com,F,Spain,Europe Middle East Africa,Finance,Software Engineer,Senior,2024-08-02,,ACTIVE
+E0069,Lucas Silva,lucas.silva.e0069@workbridge.com,Male,Singapore,Asia Pacific,Data,Software Engineer,Lead,2024-10-21,,ACTIVE
+E0070,Isabella Taylor,isabella.taylor.e0070@workbridge.com,Female,Singapore,Asia-Pacific,HR,Software Engineer,Junior,2026-09-21,,ACTIVE
+E0071,Isabella Thomas,isabella.thomas.e0071@workbridge.com,Unknown,India,APAC,Finance,Software Engineer,Senior,2025-12-13,,active
+E0072,Valentina Perez,valentina.perez.e0072@workbridge.com,,India,Asia-Pacific,Data,Business Analyst,Junior,2024-11-03,,ACTIVE
+E0073,Mia Johnson,mia.johnson.e0073@workbridge.com,Male,Canada,north america,Operations,Data Analyst,Junior,2024-04-10,,Active
+E0074,Isabella Davis,isabella.davis.e0074@workbridge.com,,Spain,Europe Middle East Africa,Customer Success,Data Engineer,Semi Senior,2024-08-23,,Active
+E0075,Lucas Taylor,lucas.taylor.e0075@workbridge.com,Unknown,United States,NA,Finance,HR Specialist,Senior,2026-06-02,,ACTIVE
+E0076,Michael Brown,michael.brown.e0076@workbridge.com,F,Australia,Asia Pacific,HR,Software Engineer,Lead,2026-09-27,2026-12-25,Terminated
+E0077,Emily Johnson,emily.johnson.e0077@workbridge.com,F,United Kingdom,Europe Middle East Africa,Operations,Business Analyst,Senior,2024-09-10,,Active
+E0078,Lucia Smith,lucia.smith.e0078@workbridge.com,,Spain,Europe,Engineering,Business Analyst,Senior,2026-09-10,,active
+E0079,Isabella Johnson,isabella.johnson.e0079@workbridge.com,Not specified,United States,North America,Finance,Data Analyst,Senior,2026-06-25,, active
+E0080,Liam Gonzalez,liam.gonzalez.e0080@workbridge.com,f,United States,North America,HR,Business Analyst,Senior,2024-08-27,,Active
+E0081,Ava Johnson,ava.johnson.e0081@workbridge.com,Male,Canada,NA,Engineering,HR Specialist,Lead,2025-09-13,,Active
+E0082,James Anderson,james.anderson.e0082@workbridge.com,N/A,Spain,Europe Middle East Africa,Finance,HR Specialist,Senior,2025-03-19,2026-11-18,terminated
+E0083,Martina Davis,martina.davis.e0083@workbridge.com,Not specified,Brazil,latam,Customer Success,Software Engineer,Lead,2025-08-23,2026-08-05,Terminated
+E0084,Emily Johnson,emily.johnson.e0084@workbridge.com,Female,Brazil,Latam,Finance,Project Manager,Senior,2023-04-03,,Active
+E0085,Martina Thomas,martina.thomas.e0085@workbridge.com,Male,Japan,Asia-Pacific,Operations,Data Engineer,Lead,2025-04-29,,Active
+E0086,Camila Smith,camila.smith.e0086@workbridge.com,M,Japan,APAC,Data,Project Manager,Junior,2025-01-12,2026-03-24,TERMINATED
+E0087,Isabella Silva,isabella.silva.e0087@workbridge.com,Female,United States,north america,Engineering,Business Analyst,Semi Senior,2023-04-14,,active
+E0088,Sofia Rodriguez,sofia.rodriguez.e0088@workbridge.com,Female,Canada,north america,Operations,Data Engineer,Junior,2023-10-30,,ACTIVE
+E0089,Lucia Perez,lucia.perez.e0089@workbridge.com,Female,Brazil,Latin America,Data,Data Engineer,Lead,2023-01-31,,active
+E0090,Daniel Silva,lucas@@workbridge.com,F,Argentina,Latam,HR,Data Analyst,Senior,2025-09-02,,Active
+E0091,John Johnson,john.johnson.e0091@workbridge.com,m,India,Asia Pacific,Data,Data Analyst,Senior,2023-05-05,,Active
+E0092,Lucia Moore,lucia.moore.e0092@workbridge.com,N/A,United States,North America,HR,Business Analyst,Senior,2023-09-16,,ACTIVE
+E0093,Michael Gonzalez,peter brown@workbridge.com,M,Singapore,APAC,Finance,Software Engineer,Lead,2023-07-23,,active
+E0094,Mateo Anderson,mateo.anderson.e0094@workbridge.com,f,Singapore,Asia Pacific,Data,Data Analyst,Junior,2023-07-14,,Active
+E0095,Isabella Moore,isabella.moore.e0095@workbridge.com,f,Mexico,Latin America,Customer Success,Data Analyst,Lead,2023-07-17,,Active
+E0096,Benjamin Anderson,benjamin.anderson.e0096@workbridge.com,f,United Kingdom,Europe Middle East Africa,Engineering,Data Engineer,Lead,2023-04-16,,ACTIVE
+E0097,Mia Rodriguez,mia.rodriguez.e0097@workbridge.com,Unknown,United States,North America,HR,Business Analyst,Junior,2024-12-18,,Active
+E0098,Ava Anderson,ava.anderson.e0098@workbridge.com,Female,Spain,EMEA,HR,HR Specialist,Lead,2024-01-05,,Active
+E0099,Daniel Gonzalez,daniel.gonzalez.e0099@workbridge.com,M,Brazil,latam,Operations,Data Engineer,Senior,2026-07-20,,active
+E0100,Isabella Brown,isabella.brown.e0100@workbridge.com,Not specified,France,Europe Middle East Africa,Data,Software Engineer,Lead,2026-03-08,,active
+E0101,Noah Ruiz,noah.ruiz.e0101@workbridge.com,F,Singapore,Asia Pacific,Data,Software Engineer,Lead,2026-05-28,,Active
+E0102,Emma Garcia,emma.garcia.e0102@workbridge.com,F,Spain,EMEA,Engineering,Software Engineer,Senior,2024-03-27,,ACTIVE
+E0103,Liam Lopez,liam.lopez.e0103@workbridge.com,m,Spain,Europe Middle East Africa,Engineering,Business Analyst,Senior,2023-01-16,,Active
+E0104,Olivia Perez,olivia.perez.e0104@workbridge.com,,Mexico,latam,Customer Success,HR Specialist,Lead,2023-03-28,,Active
+E0105,Martina Romero,martina.romero.e0105@workbridge.com,N/A,Spain,EMEA,Finance,Data Analyst,Semi Senior,2025-04-09,2026-05-06,terminated
+E0106,Ava Davis,ava.davis.e0106@workbridge.com,Male,Singapore,APAC,HR,HR Specialist,Junior,2025-12-09,2026-07-15,TERMINATED
+E0107,Isabella Davis,isabella.davis.e0107@workbridge.com,Female,Canada,North America,Engineering,Data Engineer,Semi Senior,2024-12-20,,ACTIVE
+E0108,Lucia Romero,lucia.romero.e0108@workbridge.com,N/A,Brazil,Latin America,Engineering,Project Manager,Junior,2026-07-10,,ACTIVE
+E0109,Lucia Smith,lucia.smith.e0109@workbridge.com,m,Singapore,APAC,Operations,Project Manager,Lead,2026-07-17,,Active
+E0110,Olivia Miller,olivia.miller.e0110@workbridge.com,,Argentina,latam,HR,Business Analyst,Junior,2025-01-25,,active
+E0111,Isabella Smith,isabella.smith.e0111@workbridge.com,Male,Japan,Asia Pacific,Customer Success,Data Analyst,Semi Senior,2024-10-20,,ACTIVE
+E0112,Daniel Miller,daniel.miller.e0112@workbridge.com,F,Brazil,Latin America,Operations,Project Manager,Lead,2025-06-15,,ACTIVE
+E0113,Ava Martinez,ava.martinez.e0113@workbridge.com,Male,Netherlands,Europe Middle East Africa,Customer Success,Project Manager,Senior,2023-04-18,,ACTIVE
+E0114,Isabella Anderson,isabella.anderson.e0114@workbridge.com,m,Netherlands,Europe Middle East Africa,Customer Success,Project Manager,Semi Senior,2023-11-04,,ACTIVE
+E0115,Isabella Ruiz,isabella.ruiz.e0115@workbridge.com,f,Chile,latam,HR,Software Engineer,Junior,2026-02-18,,Active
+E0116,Emily Gonzalez,emily.gonzalez.e0116@workbridge.com,Female,France,EMEA,Data,Software Engineer,Junior,2024-01-05,,Active
+E0117,Isabella Brown,isabella.brown.e0117@workbridge.com,f,Chile,Latam,Customer Success,Project Manager,Junior,2026-06-19,,Active
+E0118,Martina Wilson,martina.wilson.e0118@workbridge.com,,Australia,APAC,HR,Data Engineer,Senior,2026-10-17,,Active
+E0119,James Romero,james.romero.e0119@workbridge.com,M,Japan,Asia-Pacific,HR,Project Manager,Semi Senior,2025-01-23,,ACTIVE
+E0120,Michael Johnson,michael.johnson.e0120@workbridge.com,Not specified,United States,North America,Data,Data Engineer,Senior,2024-05-27,2025-11-30,Terminated
+E0121,James Anderson,@workbridge.com,F,Japan,APAC,Finance,Business Analyst,Senior,2025-06-14,2026-11-22,terminated
+E0122,Ava Johnson,ava.johnson.e0122@workbridge.com,N/A,Canada,NA,Engineering,Data Analyst,Senior,2023-06-17,,active
+E0123,Olivia Garcia,olivia.garcia.e0123@workbridge.com,Male,Japan,APAC,HR,HR Specialist,Lead,2025-08-18,,active
+E0124,Lucas Thomas,lucas.thomas.e0124@workbridge.com,,Chile,LATAM,Data,Project Manager,Junior,2024-05-01,,active
+E0125,Camila Davis,camila.davis.e0125@workbridge.com,,United States,NA,Customer Success,HR Specialist,Junior,2024-08-19,,ACTIVE
+E0126,Michael Garcia,michael.garcia.e0126@workbridge.com,M,Spain,EMEA,Customer Success,Project Manager,Senior,2025-12-13,,ACTIVE
+E0127,Lucas Johnson,lucas.johnson.e0127@workbridge.com,N/A,Spain,EMEA,Data,Software Engineer,Senior,2025-01-01,,Active
+E0128,Isabella Martinez,isabella.martinez.e0128@workbridge.com,,Canada,NA,Operations,Data Engineer,Junior,2026-11-25,,active
+E0129,Valentina Moore,valentina.moore.e0129@workbridge.com,M,United States,NA,Customer Success,Data Engineer,Senior,2024-10-08,,ACTIVE
+E0130,Camila Thomas,camila.thomas.e0130@workbridge.com,m,Spain,Europe,Finance,Software Engineer,Semi Senior,2026-09-04,,active
+E0131,Mateo Martinez,mateo.martinez.e0131@workbridge.com,,Singapore,APAC,Finance,Business Analyst,Semi Senior,2025-01-22,,ACTIVE
+E0132,James Miller,james.miller.e0132@workbridge.com,,France,EMEA,Customer Success,Project Manager,Senior,2023-07-30,2025-05-25,Terminated
+E0133,Mateo Smith,mateo.smith.e0133@workbridge.com,f,India,Asia-Pacific,Finance,Software Engineer,Semi Senior,2024-12-23,,Active
+E0134,Emma Lopez,,Female,Brazil,Latin America,Operations,Project Manager,Junior,2026-05-29,,Active
+E0135,Lucia Lopez,lucia.lopez.e0135@workbridge.com,N/A,Canada,North America,Operations,HR Specialist,Senior,2025-01-29,,active
+E0136,Daniel Sanchez,daniel.sanchez.e0136@workbridge.com,Not specified,United States,North America,Operations,HR Specialist,Lead,2023-02-23,,Active
+E0137,Noah Johnson,noah.johnson.e0137@workbridge.com,Female,Canada,North America,Engineering,HR Specialist,Lead,2026-11-22,,Active
+E0138,Michael Moore,michael.moore.e0138@workbridge.com,M,Chile,Latam,Customer Success,HR Specialist,Semi Senior,2026-09-29,,active
+E0139,Isabella Davis,isabella.davis.e0139@workbridge.com,Male,Netherlands,Europe,HR,Business Analyst,Senior,2024-04-04,,active
+E0140,Benjamin Sanchez,benjamin.sanchez.e0140@workbridge.com,,Japan,Asia-Pacific,Finance,Project Manager,Junior,2026-06-07,,active
+E0141,Daniel Anderson,daniel.anderson.e0141@workbridge.com,f,Canada,north america,HR,Data Engineer,Semi Senior,2026-08-08,2026-12-05,TERMINATED
+E0142,Liam Brown,liam.brown.e0142@workbridge.com,m,India,APAC,Operations,Business Analyst,Senior,2023-09-12,,Active
+E0143,Mateo Lopez,mateo.lopez.e0143@workbridge.com,N/A,Chile,LATAM,HR,HR Specialist,Semi Senior,2024-02-07,,ACTIVE
+E0144,Ava Silva,ava.silva.e0144@workbridge.com,Female,United States,NA,Data,HR Specialist,Senior,2026-09-11,,ACTIVE
+E0145,Michael Wilson,michael.wilson.e0145@workbridge.com,N/A,Canada,North America,Engineering,HR Specialist,Lead,2026-06-19,,Active
+E0146,James Thomas,james.thomas.e0146@workbridge.com,M,United Kingdom,EMEA,Operations,Business Analyst,Semi Senior,2023-05-30,,active
+E0147,Camila Ruiz,camila.ruiz.e0147@workbridge.com,Not specified,France,Europe,Engineering,Project Manager,Junior,2024-12-08,,active
+E0148,Benjamin Sanchez,benjamin.sanchez.e0148@workbridge.com,,United Kingdom,EMEA,Engineering,Software Engineer,Senior,2024-05-22,,active
+E0149,Emily Wilson,emily.wilson.e0149@workbridge.com,Male,United States,NA,Finance,Business Analyst,Lead,2025-10-17,,Active
+E0150,Benjamin Taylor,benjamin.taylor.e0150@workbridge.com,,United States,North America,HR,Data Analyst,Junior,2026-04-09,,active
+E0151,Camila Smith,camila.smith.e0151@workbridge.com,Male,Japan,Asia-Pacific,HR,Data Engineer,Senior,2024-06-25,,Active
+E0152,Mateo Miller,mateo.miller.e0152@workbridge.com,Not specified,Spain,EMEA,Data,Project Manager,Senior,2025-03-02,,ACTIVE
+E0153,Martina Ruiz,martina.ruiz.e0153@workbridge.com,m,Netherlands,EMEA,Data,Data Analyst,Semi Senior,2025-01-18,,active
+E0154,Daniel Lopez,daniel.lopez.e0154@workbridge.com,m,United Kingdom,Europe,Engineering,Project Manager,Senior,2025-11-29,,ACTIVE
+E0155,Lucia Wilson,lucia.wilson.e0155@workbridge.com,Male,Netherlands,Europe,Operations,HR Specialist,Junior,2025-11-09,,ACTIVE
+E0156,Emily Rodriguez,emily.rodriguez.e0156@workbridge.com,Unknown,Australia,Asia-Pacific,Data,Business Analyst,Lead,2026-11-10,,ACTIVE
+E0157,Emma Silva,emma.silva.e0157@workbridge.com,Not specified,Canada,NA,Data,Project Manager,Senior,2023-10-30,,active
+E0158,Daniel Miller,daniel.miller.e0158@workbridge.com,m,Japan,Asia-Pacific,Data,HR Specialist,Semi Senior,2025-04-25,,Active
+E0159,Ava Brown,ava.brown.e0159@workbridge.com,m,Canada,North America,HR,Software Engineer,Senior,2026-09-18,,Active
+E0160,Lucas Wilson,lucas.wilson.e0160@workbridge.com,m,Japan,APAC,Customer Success,HR Specialist,Lead,2024-05-19,,Active
+E0161,Mateo Wilson,mateo.wilson.e0161@workbridge.com,f,United Kingdom,Europe Middle East Africa,HR,Project Manager,Lead,2024-12-15,,ACTIVE
+E0162,Camila Romero,camila.romero.e0162@workbridge.com,N/A,Germany,Europe Middle East Africa,Finance,Data Engineer,Semi Senior,2024-08-17,2026-10-17,terminated
+E0163,Martina Silva,martina.silva.e0163@workbridge.com,Female,Netherlands,EMEA,Customer Success,Business Analyst,Semi Senior,2026-11-26,,active
+E0164,Emily Johnson,emily.johnson.e0164@workbridge.com,Unknown,United States,NA,HR,Data Engineer,Lead,2023-07-25,,ACTIVE
+E0165,Ava Wilson,ava.wilson.e0165@workbridge.com,Not specified,Singapore,APAC,Customer Success,Business Analyst,Semi Senior,2026-08-25,,Active
+E0166,Emma Sanchez,emma.sanchez.e0166@workbridge.com,Male,Brazil,Latin America,Data,Data Analyst,Senior,2025-05-05,,active
+E0167,Michael Ruiz,michael.ruiz.e0167@workbridge.com,Male,Chile,latam,Operations,Data Engineer,Junior,2024-08-05,,ACTIVE
+E0168,Liam Garcia,liam.garcia.e0168@workbridge.com,N/A,Germany,Europe,HR,HR Specialist,Semi Senior,2025-07-28,,ACTIVE
+E0169,Valentina Johnson,valentina.johnson.e0169@workbridge.com,Female,Canada,North America,Operations,Data Engineer,Junior,2025-05-25,,active
+E0170,Ava Wilson,ava.wilson.e0170@workbridge.com,Not specified,United Kingdom,Europe,Customer Success,Software Engineer,Semi Senior,2024-04-27,,Active
+E0171,Daniel Wilson,daniel.wilson.e0171@workbridge.com,Not specified,Argentina,Latin America,Operations,Business Analyst,Semi Senior,2025-08-11,,Active
+E0172,Martina Anderson,martina.anderson.e0172@workbridge.com,m,United States,north america,Finance,Business Analyst,Semi Senior,2025-09-06,,ACTIVE
+E0173,Camila Martinez,camila.martinez.e0173@workbridge.com,Not specified,United States,NA,HR,Business Analyst,Semi Senior,2025-12-12,,ACTIVE
+E0174,Mia Gonzalez,mia.gonzalez.e0174@workbridge.com,,United States,NA,HR,Project Manager,Junior,2024-11-02,,Active
+E0175,Emma Moore,emma.moore.e0175@workbridge.com,m,Japan,Asia Pacific,Customer Success,Data Analyst,Lead,2025-11-17,,ACTIVE
+E0176,John Anderson,john.anderson.e0176@workbridge.com,Not specified,Spain,Europe Middle East Africa,Data,Data Analyst,Lead,2024-03-22,,active
+E0177,John Anderson,john.anderson.e0177@workbridge.com,M,Chile,latam,Finance,Data Analyst,Semi Senior,2025-04-17,,active
+E0178,Daniel Lopez,daniel.lopez.e0178@workbridge.com,Unknown,Spain,EMEA,Data,Software Engineer,Lead,2024-01-01,,Active
+E0179,Isabella Rodriguez,isabella.rodriguez.e0179@workbridge.com,f,Singapore,APAC,Data,HR Specialist,Lead,2024-04-15,,Active
+E0180,James Miller,james.miller.e0180@workbridge.com,Not specified,Brazil,Latam,Customer Success,Data Analyst,Lead,2024-02-27,2025-12-26,terminated
+E0181,Isabella Ruiz,isabella.ruiz.e0181@workbridge.com,Male,Japan,Asia-Pacific,HR,Software Engineer,Senior,2026-01-10,,active
+E0182,Lucas Thomas,lucas.thomas.e0182@workbridge.com,M,Canada,NA,HR,Business Analyst,Semi Senior,2023-10-21,,ACTIVE
+E0183,Valentina Ruiz,valentina.ruiz.e0183@workbridge.com,m,Singapore,Asia Pacific,Finance,Data Engineer,Senior,2023-04-07,,ACTIVE
+E0184,Benjamin Lopez,benjamin.lopez.e0184@workbridge.com,Male,Japan,Asia-Pacific,Finance,Project Manager,Semi Senior,2026-01-06,,active
+E0185,Olivia Romero,olivia.romero.e0185@workbridge.com,Male,Japan,Asia-Pacific,Customer Success,Data Engineer,Junior,2024-06-06,,ACTIVE
+E0186,Olivia Gonzalez,olivia.gonzalez.e0186@workbridge.com,Unknown,United Kingdom,Europe,Engineering,Software Engineer,Senior,2026-10-11,,active
+E0187,Emily Davis,emily.davis.e0187@workbridge.com,Unknown,Brazil,latam,Engineering,Business Analyst,Senior,2024-01-25,,active
+E0188,Benjamin Rodriguez,benjamin.rodriguez.e0188@workbridge.com,m,United Kingdom,Europe,Finance,Data Analyst,Lead,2025-08-12,,Active
+E0189,Lucia Davis,lucia.davis.e0189@workbridge.com,Unknown,Germany,EMEA,Operations,Business Analyst,Lead,2025-01-29,,active
+E0190,Lucia Davis,john.smith.workbridge.com,m,Germany,Europe Middle East Africa,Customer Success,Software Engineer,Senior,2024-02-06,,Active
+E0191,Liam Lopez,liam.lopez.e0191@workbridge.com,,Singapore,APAC,HR,HR Specialist,Junior,2025-08-01,,Active
+E0192,Isabella Davis,isabella.davis.e0192@workbridge.com,f,Argentina,Latam,Data,Data Engineer,Lead,2026-09-30,2026-11-29,Terminated
+E0193,Emily Taylor,emily.taylor.e0193@workbridge.com,Female,Spain,Europe Middle East Africa,HR,Project Manager,Junior,2026-06-19,,ACTIVE
+E0194,Sofia Ruiz,sofia.ruiz.e0194@workbridge.com,,Colombia,Latam,Data,Data Analyst,Semi Senior,2024-07-16,,Active
+E0195,Mateo Sanchez,mateo.sanchez.e0195@workbridge.com,F,United States,North America,Finance,Business Analyst,Semi Senior,2026-06-23,,Active
+E0196,Emma Martinez,emma.martinez.e0196@workbridge.com,M,Canada,North America,HR,Project Manager,Junior,2026-11-01,,active
+E0197,Ava Silva,ava.silva.e0197@workbridge.com,f,Brazil,LATAM,Engineering,Data Engineer,Lead,2023-06-19,,Active
+E0198,Michael Silva,michael.silva.e0198@workbridge.com,Not specified,Spain,EMEA,Operations,Data Analyst,Semi Senior,2023-06-02,,Active
+E0199,Lucas Silva,lucas.silva.e0199@workbridge.com,m,Canada,north america,Operations,Project Manager,Semi Senior,2023-06-07,,ACTIVE
+E0200,Olivia Perez,olivia.perez.e0200@workbridge.com,,Colombia,Latin America,Data,HR Specialist,Senior,2024-12-09,2026-04-30,terminated
+E0201,John Brown,john.brown.e0201@workbridge.com,,Singapore,APAC,HR,Software Engineer,Semi Senior,2024-04-12,,Active
+E0202,Isabella Sanchez,isabella.sanchez.e0202@workbridge.com,M,Argentina,LATAM,Data,Data Analyst,Senior,2024-07-02,,ACTIVE
+E0203,John Romero,john.romero.e0203@workbridge.com,,Australia,APAC,Data,Data Analyst,Senior,2024-07-06,2024-12-02,terminated
+E0204,Sofia Wilson,sofia.wilson.e0204@workbridge.com,M,Colombia,LATAM,Customer Success,Business Analyst,Semi Senior,2026-05-09,,Active
+E0205,Mateo Taylor,mateo.taylor.e0205@workbridge.com,Female,Canada,NA,Finance,Software Engineer,Lead,2023-12-14,,Active
+E0206,Emily Miller,emily.miller.e0206@workbridge.com,Unknown,United Kingdom,Europe,Data,Data Engineer,Senior,2023-06-07,,active
+E0207,Ava Romero,ava.romero.e0207@workbridge.com,M,Mexico,Latam,Operations,Software Engineer,Semi Senior,2024-11-11,,Active
+E0208,Benjamin Taylor,benjamin.taylor.e0208@workbridge.com,Unknown,Australia,Asia Pacific,Finance,Software Engineer,Lead,2023-12-30,,Active
+E0209,Liam Moore,liam.moore.e0209@workbridge.com,f,Spain,Europe,Customer Success,Data Engineer,Lead,2026-02-28,,ACTIVE
+E0210,Benjamin Davis,benjamin.davis.e0210@workbridge.com,m,Spain,EMEA,Customer Success,Project Manager,Lead,2025-04-17,,active
+E0211,Michael Ruiz,michael.ruiz.e0211@workbridge.com,,Mexico,LATAM,Operations,HR Specialist,Junior,2026-05-09,,Active
+E0212,Martina Smith,martina.smith.e0212@workbridge.com,,Brazil,Latin America,Finance,Data Analyst,Junior,2026-09-08,,active
+E0213,Michael Silva,michael.silva.e0213@workbridge.com,Unknown,Chile,latam,Operations,Project Manager,Lead,2024-03-30,,ACTIVE
+E0214,John Martinez,john.martinez.e0214@workbridge.com,f,Canada,NA,Operations,Software Engineer,Senior,2023-02-20,,Active
+E0215,Mia Romero,mia.romero.e0215@workbridge.com,,Japan,Asia Pacific,Data,Software Engineer,Junior,2025-12-03,,Active
+E0216,Liam Davis,liam.davis.e0216@workbridge.com,Unknown,Argentina,Latam,Operations,Business Analyst,Lead,2024-12-03,,ACTIVE
+E0217,John Sanchez,john.sanchez.e0217@workbridge.com,f,Japan,Asia-Pacific,Engineering,Project Manager,Lead,2025-04-09,,active
+E0218,Olivia Silva,olivia.silva.e0218@workbridge.com,f,India,APAC,Operations,Software Engineer,Semi Senior,2024-03-15,,ACTIVE
+E0219,Daniel Perez,daniel.perez.e0219@workbridge.com,,India,Asia-Pacific,Finance,Business Analyst,Junior,2024-06-21,,Active
+E0220,Benjamin Miller,benjamin.miller.e0220@workbridge.com,Not specified,France,Europe Middle East Africa,Engineering,Software Engineer,Junior,2025-07-26,,ACTIVE
+E0221,Isabella Ruiz,isabella.ruiz.e0221@workbridge.com,M,Canada,north america,Engineering,Business Analyst,Lead,2023-08-28,,ACTIVE
+E0222,Liam Moore,liam.moore.e0222@workbridge.com,F,Japan,Asia Pacific,Engineering,Data Engineer,Senior,2025-09-23,,ACTIVE
+E0223,Isabella Gonzalez,isabella.gonzalez.e0223@workbridge.com,m,India,Asia-Pacific,Customer Success,Project Manager,Lead,2025-01-05,,Active
+E0224,Lucia Garcia,lucia.garcia.e0224@workbridge.com,F,Singapore,APAC,Operations,Data Engineer,Senior,2025-06-28,,active
+E0225,Michael Ruiz,michael.ruiz.e0225@workbridge.com,f,Canada,NA,Operations,Business Analyst,Senior,2026-03-04,,Active
+E0226,Mia Davis,mia.davis.e0226@workbridge.com,Male,Mexico,latam,Operations,Software Engineer,Junior,2026-01-23,,Active
+E0227,Lucia Anderson,lucia.anderson.e0227@workbridge.com,,India,APAC,HR,Data Engineer,Semi Senior,2024-04-30,,ACTIVE
+E0228,Martina Moore,martina.moore.e0228@workbridge.com,F,United States,north america,Operations,Software Engineer,Senior,2026-03-13,,Active
+E0229,Isabella Lopez,isabella.lopez.e0229@workbridge.com,Female,Brazil,Latin America,Engineering,HR Specialist,Lead,2025-04-22,,Active
+E0230,John Sanchez,john.sanchez.e0230@workbridge.com,Male,Japan,Asia-Pacific,Data,Project Manager,Senior,2026-03-28,,ACTIVE
+E0231,Olivia Romero,olivia.romero.e0231@workbridge.com,N/A,United Kingdom,EMEA,HR,Project Manager,Semi Senior,2025-09-26,,active
+E0232,Ava Moore,ava.moore.e0232@workbridge.com,Unknown,Japan,Asia-Pacific,Finance,Software Engineer,Junior,2025-10-10,,Active
+E0233,Sofia Johnson,sofia.johnson.e0233@workbridge.com,F,Argentina,latam,Data,Project Manager,Semi Senior,2026-07-06,,Active
+E0234,Olivia Anderson,olivia.anderson.e0234@workbridge.com,Male,Canada,North America,Customer Success,HR Specialist,Semi Senior,2023-11-22,,Active
+E0235,Lucas Thomas,lucas.thomas.e0235@workbridge.com,Not specified,Mexico,LATAM,Data,Data Engineer,Lead,2026-07-05,,ACTIVE
+E0236,James Garcia,james.garcia.e0236@workbridge.com,f,Brazil,Latin America,Data,Project Manager,Semi Senior,2026-04-30,,ACTIVE
+E0237,Mia Johnson,mia.johnson.e0237@workbridge.com,M,India,Asia Pacific,Engineering,Project Manager,Semi Senior,2024-04-13,,ACTIVE
+E0238,Liam Romero,liam.romero.e0238@workbridge.com,m,United States,NA,Customer Success,HR Specialist,Semi Senior,2025-12-22,,ACTIVE
+E0239,Mia Silva,mia.silva.e0239@workbridge.com,,Singapore,Asia Pacific,Finance,Software Engineer,Semi Senior,2024-03-20,2024-08-29,terminated
+E0240,Martina Miller,martina.miller.e0240@workbridge.com,m,Canada,NA,Customer Success,Software Engineer,Semi Senior,2026-08-13,2026-12-21,TERMINATED
+E0241,Emily Sanchez,emily.sanchez.e0241@workbridge.com,Female,Canada,North America,Customer Success,Business Analyst,Junior,2024-08-28,,active
+E0242,John Anderson,john.anderson.e0242@workbridge.com,Unknown,Chile,latam,Data,Data Analyst,Junior,2024-10-10,,ACTIVE
+E0243,Daniel Wilson,daniel.wilson.e0243@workbridge.com,,Chile,latam,Customer Success,Project Manager,Junior,2024-03-17,2024-07-16,Terminated
+E0244,Noah Lopez,noah.lopez.e0244@workbridge.com,N/A,Canada,North America,HR,HR Specialist,Junior,2023-06-21,,ACTIVE
+E0245,Mia Romero,mia.romero.e0245@workbridge.com,Not specified,United Kingdom,Europe,Customer Success,HR Specialist,Semi Senior,2024-05-03,2024-09-28,Terminated
+E0246,Emily Anderson,emily.anderson.e0246@workbridge.com,N/A,Argentina,Latam,Operations,Data Engineer,Senior,2023-10-09,,active
+E0247,Daniel Martinez,daniel.martinez.e0247@workbridge.com,m,Argentina,LATAM,Finance,Project Manager,Senior,2024-11-17,,Active
+E0248,Mateo Johnson,mateo.johnson.e0248@workbridge.com,Not specified,Mexico,Latam,Customer Success,Business Analyst,Junior,2026-03-06,,active
+E0249,Isabella Brown,"ana.lopez@workbridge,com",f,Argentina,latam,Engineering,Software Engineer,Semi Senior,2024-05-15,2025-07-21,Terminated
+E0250,Camila Johnson,camila.johnson.e0250@workbridge.com,Not specified,Australia,APAC,Engineering,Business Analyst,Junior,2024-07-09,,ACTIVE
+E0251,Ava Martinez,ava.martinez.e0251@workbridge.com,,India,APAC,Operations,Data Engineer,Senior,2025-08-10,,Active
+E0252,Emily Gonzalez,emily.gonzalez.e0252@workbridge.com,Unknown,Netherlands,EMEA,Data,Project Manager,Junior,2024-05-11,,ACTIVE
+E0253,Ava Garcia,ava.garcia.e0253@workbridge.com,,Canada,north america,Customer Success,Software Engineer,Junior,2026-07-26,,active
+E0254,Isabella Rodriguez,isabella.rodriguez.e0254@workbridge.com,Female,United States,NA,HR,Project Manager,Senior,2025-05-09,,active
+E0255,Valentina Martinez,valentina.martinez.e0255@workbridge.com,Not specified,India,Asia Pacific,Customer Success,Data Engineer,Semi Senior,2026-04-04,2026-07-07,TERMINATED
+E0256,Ava Perez,ava.perez.e0256@workbridge.com,M,France,EMEA,Data,Data Engineer,Semi Senior,2024-10-07,,Active
+E0257,Ava Thomas,ava.thomas.e0257@workbridge.com,f,Brazil,Latin America,Engineering,Project Manager,Senior,2023-08-05,,Active
+E0258,Martina Smith,martina.smith.e0258@workbridge.com,F,Australia,APAC,Data,HR Specialist,Semi Senior,2023-09-03,2025-07-17,TERMINATED
+E0259,Liam Garcia,liam.garcia.e0259@workbridge.com,M,United Kingdom,Europe Middle East Africa,Customer Success,Business Analyst,Semi Senior,2025-11-17,2026-06-18,Terminated
+E0260,Mia Garcia,mia.garcia.e0260@workbridge.com,Female,Mexico,Latam,Engineering,Project Manager,Senior,2023-07-28,,active
+E0261,Sofia Martinez,sofia.martinez.e0261@workbridge.com,f,Colombia,latam,Engineering,Data Analyst,Senior,2026-04-15,,active
+E0262,Valentina Taylor,valentina.taylor.e0262@workbridge.com,F,Argentina,latam,Engineering,Software Engineer,Semi Senior,2025-08-02,2026-07-21,Terminated
+E0263,Emma Miller,emma.miller.e0263@workbridge.com,Unknown,Canada,north america,Operations,Project Manager,Lead,2024-07-27,,active
+E0264,John Gonzalez,john.gonzalez.e0264@workbridge.com,Unknown,India,Asia-Pacific,HR,Data Analyst,Lead,2023-06-29,,active
+E0265,Lucia Ruiz,lucia.ruiz.e0265@workbridge.com,M,United Kingdom,Europe,Engineering,Data Analyst,Senior,2026-01-20,,Active
+E0266,Camila Silva,camila.silva.e0266@workbridge.com,Female,United States,NA,Engineering,HR Specialist,Semi Senior,2024-07-29,2026-01-23,TERMINATED
+E0267,Lucia Sanchez,lucia.sanchez.e0267@workbridge.com,Male,Netherlands,EMEA,Engineering,Business Analyst,Senior,2023-04-25,,active
+E0268,Lucia Silva,lucia.silva.e0268@workbridge.com,f,Netherlands,EMEA,Finance,Business Analyst,Senior,2023-02-27,,Active
+E0269,Lucas Garcia,lucas.garcia.e0269@workbridge.com,,Canada,NA,Operations,Business Analyst,Semi Senior,2023-03-19,2024-09-05,TERMINATED
+E0270,Emma Garcia,emma.garcia.e0270@workbridge.com,f,Canada,north america,Engineering,Data Analyst,Senior,2023-12-30,,Active
+E0271,Ava Wilson,ava.wilson.e0271@workbridge.com,Male,Chile,Latam,Customer Success,Project Manager,Lead,2026-09-18,2026-09-07,terminated
+E0272,Camila Davis,camila.davis.e0272@workbridge.com,Unknown,Germany,Europe,Operations,HR Specialist,Senior,2026-02-24,,ACTIVE
+E0273,Valentina Silva,valentina.silva.e0273@workbridge.com,Female,United States,north america,Operations,Business Analyst,Semi Senior,2023-01-04,,ACTIVE
+E0274,Lucas Anderson,lucas.anderson.e0274@workbridge.com,Male,Mexico,LATAM,Customer Success,HR Specialist,Senior,2023-10-16,,active
+E0275,Olivia Anderson,olivia.anderson.e0275@workbridge.com,Male,India,Asia-Pacific,Data,Data Analyst,Lead,2024-06-27,,ACTIVE
+E0276,Valentina Anderson,valentina.anderson.e0276@workbridge.com,,Singapore,APAC,Finance,Business Analyst,Semi Senior,2023-12-07,,Active
+E0277,Benjamin Garcia,benjamin.garcia.e0277@workbridge.com,M,Canada,NA,Data,Software Engineer,Semi Senior,2023-05-31,,active
+E0278,Ava Miller,ava.miller.e0278@workbridge.com,,Japan,Asia-Pacific,Data,Project Manager,Semi Senior,2023-06-03,,active
+E0279,John Moore,john.moore.e0279@workbridge.com,N/A,Japan,Asia-Pacific,Operations,Software Engineer,Semi Senior,2023-04-20,2024-08-12,terminated
+E0280,Isabella Smith,isabella.smith.e0280@workbridge.com,Male,Argentina,latam,Data,Software Engineer,Lead,2025-03-15,,Active
+E0281,Benjamin Martinez,benjamin.martinez.e0281@workbridge.com,Male,United States,North America,Finance,Project Manager,Lead,2023-02-22,,ACTIVE
+E0282,Camila Sanchez,camila.sanchez.e0282@workbridge.com,Male,Spain,Europe,Data,Software Engineer,Lead,2026-08-07,,active
+E0283,Emma Lopez,emma.lopez.e0283@workbridge.com,Not specified,Australia,APAC,Customer Success,Software Engineer,Lead,2024-04-08,,ACTIVE
+E0284,Michael Taylor,michael.taylor.e0284@workbridge.com,Unknown,United States,North America,Operations,Data Analyst,Lead,2025-03-03,,Active
+E0285,Martina Lopez,martina.lopez.e0285@workbridge.com,F,Colombia,Latam,Engineering,Data Engineer,Semi Senior,2026-03-15,,ACTIVE
+E0286,Isabella Miller,isabella.miller.e0286@workbridge.com,M,United States,north america,Data,Data Analyst,Lead,2025-05-17,2026-10-04,terminated
+E0287,Martina Silva,martina.silva.e0287@workbridge.com,,Australia,APAC,Finance,Data Engineer,Semi Senior,2024-07-19,,active
+E0288,Michael Anderson,michael.anderson.e0288@workbridge.com,M,Argentina,latam,Customer Success,Project Manager,Lead,2026-02-26,,Active
+E0289,Martina Sanchez,martina.sanchez.e0289@workbridge.com,F,Brazil,Latin America,Customer Success,Data Engineer,Junior,2024-07-18,,ACTIVE
+E0290,Mateo Taylor,mateo.taylor.e0290@workbridge.com,Not specified,Australia,APAC,Engineering,Software Engineer,Lead,2025-02-01,2026-02-06,Terminated
+E0291,Noah Romero,noah.romero.e0291@workbridge.com,F,France,Europe Middle East Africa,Finance,Business Analyst,Senior,2025-05-03,,active
+E0292,Isabella Ruiz,isabella.ruiz.e0292@workbridge.com,Not specified,Colombia,Latam,Engineering,Data Engineer,Junior,2023-11-22,2026-11-23,Terminated
+E0293,Noah Rodriguez,noah.rodriguez.e0293@workbridge.com,M,United States,north america,Finance,HR Specialist,Junior,2025-07-23,2026-03-24,TERMINATED
+E0294,Liam Taylor,liam.taylor.e0294@workbridge.com,N/A,Brazil,Latin America,Engineering,Software Engineer,Junior,2025-02-01,,Active
+E0295,Lucas Davis,lucas.davis.e0295@workbridge.com,Unknown,Spain,Europe,Customer Success,Project Manager,Junior,2025-03-02,2026-12-07,terminated
+E0296,Sofia Davis,sofia.davis.e0296@workbridge.com,m,Mexico,Latin America,Customer Success,HR Specialist,Senior,2023-09-28,,ACTIVE
+E0297,James Wilson,james.wilson.e0297@workbridge.com,,Singapore,Asia-Pacific,Data,Data Analyst,Senior,2024-12-15,,active
+E0298,Ava Rodriguez,ava.rodriguez.e0298@workbridge.com,N/A,France,Europe,Operations,HR Specialist,Senior,2026-11-02,2026-12-31,terminated
+E0299,Martina Sanchez,martina.sanchez.e0299@workbridge.com,N/A,United States,north america,Engineering,HR Specialist,Junior,2025-11-25,,active
+E0300,Valentina Smith,valentina.smith.e0300@workbridge.com,Unknown,Australia,Asia Pacific,Customer Success,HR Specialist,Semi Senior,2024-06-15,,Active
+E0301,Michael Brown,michael.brown.e0301@workbridge.com,Male,Australia,Asia Pacific,Engineering,HR Specialist,Senior,2025-11-04,,active
+E0302,Benjamin Thomas,benjamin.thomas.e0302@workbridge.com,M,Canada,North America,HR,Software Engineer,Lead,2026-09-02,2026-11-23,terminated
+E0303,Lucia Miller,lucia.miller.e0303@workbridge.com,F,Mexico,Latam,HR,Data Analyst,Lead,2023-04-20,,ACTIVE
+E0304,Isabella Gonzalez,isabella.gonzalez.e0304@workbridge.com,M,United Kingdom,Europe Middle East Africa,Finance,Data Engineer,Senior,2023-04-21,,active
+E0305,Ava Smith,ava.smith.e0305@workbridge.com,F,United States,North America,Engineering,Data Engineer,Semi Senior,2025-09-25,,inactive
+E0306,John Sanchez,john.sanchez.e0306@workbridge.com,M,India,Asia Pacific,Data,Data Analyst,Semi Senior,2023-09-23,,ACTIVE
+E0307,Noah Garcia,noah.garcia.e0307@workbridge.com,Not specified,Spain,Europe Middle East Africa,Customer Success,Data Engineer,Semi Senior,2024-10-21,,ACTIVE
+E0308,Benjamin Brown,benjamin.brown.e0308@workbridge.com,Female,France,Europe,Operations,Project Manager,Senior,2023-09-22,2026-09-16,TERMINATED
+E0309,Camila Gonzalez,camila.gonzalez.e0309@workbridge.com,F,Japan,APAC,Engineering,Data Engineer,Semi Senior,2024-12-02,,Active
+E0310,Camila Smith,camila.smith.e0310@workbridge.com,m,United States,North America,HR,Business Analyst,Junior,2026-04-22,,active
+E0311,Mia Thomas,mia.thomas.e0311@workbridge.com,M,Argentina,LATAM,HR,Software Engineer,Lead,2026-08-31,,active
+E0312,Benjamin Thomas,benjamin.thomas.e0312@workbridge.com,Not specified,United States,north america,HR,Software Engineer,Semi Senior,2026-11-24,,active
+E0313,Benjamin Johnson,benjamin.johnson.e0313@workbridge.com,F,India,APAC,HR,Data Engineer,Senior,2025-11-13,,active
+E0314,Michael Taylor,michael.taylor.e0314@workbridge.com,f,Canada,North America,Operations,Data Engineer,Junior,2025-04-19,,active
+E0315,Emily Lopez,emily.lopez.e0315@workbridge.com,f,Argentina,LATAM,Customer Success,HR Specialist,Junior,2023-08-15,,ACTIVE
+E0316,Mateo Romero,mateo.romero.e0316@workbridge.com,Female,Germany,EMEA,Data,Software Engineer,Senior,2025-07-24,,Active
+E0317,Isabella Brown,isabella.brown.e0317@workbridge.com,M,United Kingdom,Europe,HR,Software Engineer,Junior,2023-08-26,2024-01-26,terminated
+E0318,Mateo Sanchez,mateo.sanchez.e0318@workbridge.com,,France,Europe,Customer Success,Data Engineer,Junior,2024-01-10,2026-06-07,Terminated
+E0319,James Brown,james.brown.e0319@workbridge.com,,United States,North America,HR,Data Analyst,Semi Senior,2023-11-23,2026-10-06,TERMINATED
+E0320,Emma Martinez,emma.martinez.e0320@workbridge.com,m,Singapore,Asia Pacific,Data,HR Specialist,Semi Senior,2023-08-20,,Active
+E0321,Mia Thomas,mia.thomas.e0321@workbridge.com,Unknown,Netherlands,Europe,Operations,HR Specialist,Lead,2025-12-07,,ACTIVE
+E0322,Daniel Taylor,daniel.taylor.e0322@workbridge.com,Male,United States,NA,Finance,Software Engineer,Semi Senior,2023-01-24,,active
+E0323,Valentina Sanchez,valentina.sanchez.e0323@workbridge.com,Female,France,Europe,Finance,Business Analyst,Lead,2023-04-14,,ACTIVE
+E0324,Sofia Johnson,sofia.johnson.e0324@workbridge.com,M,Mexico,LATAM,HR,Business Analyst,Junior,2025-07-04,,Active
+E0325,Michael Gonzalez,michael.gonzalez.e0325@workbridge.com,,Colombia,Latin America,Operations,Data Analyst,Semi Senior,2026-06-21,,ACTIVE
+E0326,Emily Anderson,emily.anderson.e0326@workbridge.com,,Australia,APAC,Data,HR Specialist,Semi Senior,2026-02-21,,ACTIVE
+E0327,Michael Ruiz,michael.ruiz.e0327@workbridge.com,m,Chile,LATAM,Data,Data Engineer,Lead,2024-12-28,,Active
+E0328,Noah Johnson,noah.johnson.e0328@workbridge.com,Male,Canada,North America,Engineering,HR Specialist,Senior,2023-08-08,,active
+E0329,Lucia Johnson,lucia.johnson.e0329@workbridge.com,M,Mexico,Latam,Finance,Data Analyst,Junior,2023-04-06,,ACTIVE
+E0330,Lucia Brown,lucia.brown.e0330@workbridge.com,Unknown,Singapore,APAC,Finance,HR Specialist,Senior,2025-11-07,,active
+E0331,Mateo Sanchez,mateo.sanchez.e0331@workbridge.com,M,Singapore,Asia Pacific,Engineering,Data Engineer,Lead,2026-06-01,,active
+E0332,Noah Gonzalez,noah.gonzalez.e0332@workbridge.com,f,Netherlands,Europe Middle East Africa,Operations,HR Specialist,Senior,2024-10-04,,ACTIVE
+E0333,Ava Johnson,ava.johnson.e0333@workbridge.com,m,United States,North America,HR,Business Analyst,Lead,2025-10-28,,ACTIVE
+E0334,Valentina Lopez,valentina.lopez.e0334@workbridge.com,f,United Kingdom,EMEA,Engineering,Software Engineer,Semi Senior,2023-01-27,,active
+E0335,Benjamin Gonzalez,benjamin.gonzalez.e0335@workbridge.com,Not specified,France,Europe,Finance,Data Analyst,Semi Senior,2023-10-27,,ACTIVE
+E0336,Benjamin Smith,benjamin.smith.e0336@workbridge.com,M,Japan,Asia Pacific,Customer Success,Software Engineer,Junior,2025-11-12,,ACTIVE
+E0337,Lucas Anderson,lucas.anderson.e0337@workbridge.com,Unknown,Chile,Latam,Operations,Project Manager,Semi Senior,2024-02-20,,Active
+E0338,Valentina Smith,valentina.smith.e0338@workbridge.com,M,Brazil,Latin America,Engineering,Data Engineer,Senior,2023-12-22,,active
+E0339,Emma Lopez,emma.lopez.e0339@workbridge.com,m,Chile,LATAM,Customer Success,Business Analyst,Senior,2025-08-13,,active
+E0340,Daniel Davis,daniel.davis.e0340@workbridge.com,f,Australia,APAC,HR,Data Engineer,Lead,2023-05-30,,Active
+E0341,Ava Perez,ava.perez.e0341@workbridge.com,M,India,APAC,HR,Business Analyst,Lead,2024-12-16,,active
+E0342,Martina Miller,martina.miller.e0342@workbridge.com,Female,Argentina,Latin America,Finance,Data Analyst,Lead,2026-10-01,,active
+E0343,Daniel Ruiz,daniel.ruiz.e0343@workbridge.com,M,Netherlands,EMEA,Operations,HR Specialist,Semi Senior,2024-08-02,2026-03-14,Terminated
+E0344,Michael Moore,michael.moore.e0344@workbridge.com,f,Netherlands,EMEA,Engineering,HR Specialist,Semi Senior,2023-06-18,,active
+E0345,John Martinez,john.martinez.e0345@workbridge.com,Unknown,India,APAC,Finance,HR Specialist,Senior,2024-02-26,,ACTIVE
+E0346,Olivia Silva,olivia.silva.e0346@workbridge.com,F,Argentina,latam,Finance,Project Manager,Lead,2023-05-31,2024-12-26,TERMINATED
+E0347,Michael Garcia,michael.garcia.e0347@workbridge.com,Not specified,Australia,Asia-Pacific,HR,Data Analyst,Junior,2023-02-04,,active
+E0348,Benjamin Miller,benjamin.miller.e0348@workbridge.com,F,Netherlands,Europe,Finance,Project Manager,Junior,2023-08-06,,ACTIVE
+E0349,Valentina Moore,valentina.moore.e0349@workbridge.com,m,Japan,APAC,Operations,HR Specialist,Senior,2025-12-28,,ACTIVE
+E0350,Sofia Silva,sofia.silva.e0350@workbridge.com,,Colombia,LATAM,Operations,Data Engineer,Senior,2026-02-10,,active
+E0351,Liam Brown,liam.brown.e0351@workbridge.com,f,Canada,North America,Engineering,Data Analyst,Semi Senior,2026-08-15,,active
+E0352,Benjamin Martinez,benjamin.martinez.e0352@workbridge.com,Male,Colombia,Latam,Customer Success,Business Analyst,Lead,2025-08-02,,active
+E0353,Mia Wilson,mia.wilson.e0353@workbridge.com,Not specified,France,EMEA,Operations,Project Manager,Lead,2023-09-20,,active
+E0354,Isabella Silva,isabella.silva.e0354@workbridge.com,N/A,Netherlands,Europe,Finance,Data Engineer,Junior,2026-09-12,,ACTIVE
+E0355,John Rodriguez,john.rodriguez.e0355@workbridge.com,Male,Germany,Europe Middle East Africa,Customer Success,Software Engineer,Lead,2024-03-29,,ACTIVE
+E0356,Michael Johnson,michael.johnson.e0356@workbridge.com,f,Singapore,Asia-Pacific,Data,Software Engineer,Semi Senior,2025-01-04,,Active
+E0357,Daniel Garcia,daniel.garcia.e0357@workbridge.com,,Canada,north america,Engineering,Data Analyst,Senior,2026-07-07,2026-09-14,terminated
+E0358,Benjamin Lopez,benjamin.lopez.e0358@workbridge.com,m,Japan,Asia-Pacific,Data,Project Manager,Senior,2025-01-19,,ACTIVE
+E0359,Isabella Romero,sofia@,Female,Brazil,Latam,Customer Success,HR Specialist,Lead,2026-06-11,,ACTIVE
+E0360,Olivia Rodriguez,olivia.rodriguez.e0360@workbridge.com,Male,Spain,EMEA,Customer Success,Data Engineer,Senior,2024-03-24,,active
+E0361,Ava Johnson,ava.johnson.e0361@workbridge.com,N/A,Singapore,Asia-Pacific,Operations,Business Analyst,Semi Senior,2025-07-20,,active
+E0362,Daniel Rodriguez,daniel.rodriguez.e0362@workbridge.com,Male,Singapore,Asia-Pacific,Finance,Software Engineer,Senior,2025-01-18,,active
+E0363,Liam Davis,liam.davis.e0363@workbridge.com,f,Singapore,Asia-Pacific,Operations,Data Engineer,Semi Senior,2026-05-22,2026-08-25,Terminated
+E0364,Lucas Thomas,lucas.thomas.e0364@workbridge.com,m,United States,NA,Finance,HR Specialist,Lead,2025-01-11,,active
+E0365,Sofia Davis,sofia.davis.e0365@workbridge.com,Female,Japan,Asia-Pacific,HR,Data Engineer,Semi Senior,2026-04-24,,Active
+E0366,Daniel Sanchez,daniel.sanchez.e0366@workbridge.com,Not specified,Colombia,Latin America,Data,Data Engineer,Lead,2023-10-28,2025-06-07,terminated
+E0367,Martina Lopez,martina.lopez.e0367@workbridge.com,Unknown,Singapore,Asia-Pacific,Customer Success,Business Analyst,Senior,2023-12-16,,Active
+E0368,Lucas Sanchez,lucas.sanchez.e0368@workbridge.com,Male,Canada,NA,Data,Data Engineer,Lead,2025-07-17,,active
+E0369,Martina Smith,martina.smith.e0369@workbridge.com,Not specified,United States,NA,Finance,HR Specialist,Semi Senior,2023-12-30,,ACTIVE
+E0370,Daniel Thomas,daniel.thomas.e0370@workbridge.com,F,Mexico,latam,Operations,Business Analyst,Junior,2025-12-05,,active
+E0371,Olivia Wilson,olivia.wilson.e0371@workbridge.com,,Japan,Asia Pacific,Engineering,Data Analyst,Junior,2024-06-05,,active
+E0372,Ava Thomas,ava.thomas.e0372@workbridge.com,Male,Colombia,Latam,Finance,HR Specialist,Senior,2023-01-15,,active
+E0373,Mateo Sanchez,mateo.sanchez.e0373@workbridge.com,F,Netherlands,Europe Middle East Africa,HR,Project Manager,Semi Senior,2025-05-17,,ACTIVE
+E0374,Lucia Anderson,lucia.anderson.e0374@workbridge.com,,Netherlands,Europe Middle East Africa,Engineering,HR Specialist,Junior,2026-02-10,,Active
+E0375,Ava Moore,ava.moore.e0375@workbridge.com,Not specified,Canada,NA,Finance,HR Specialist,Junior,2023-11-28,2026-12-03,Terminated
+E0376,Olivia Martinez,olivia.martinez.e0376@workbridge.com,Male,Brazil,Latin America,Data,Business Analyst,Junior,2025-08-23,,Active
+E0377,Martina Smith,martina.smith.e0377@workbridge.com,f,Singapore,Asia Pacific,Finance,Data Analyst,Semi Senior,2026-06-11,,Active
+E0378,Daniel Davis,daniel.davis.e0378@workbridge.com,Unknown,Germany,Europe Middle East Africa,Data,Software Engineer,Semi Senior,2023-03-10,,ACTIVE
+E0379,Camila Sanchez,camila.sanchez.e0379@workbridge.com,m,Brazil,Latam,HR,Data Analyst,Junior,2023-06-27,,Active
+E0380,Lucia Anderson,lucia.anderson.e0380@workbridge.com,M,Colombia,Latam,HR,Data Engineer,Lead,2024-08-05,,ACTIVE
+E0381,Mia Moore,mia.moore.e0381@workbridge.com,f,India,Asia Pacific,Operations,Data Analyst,Senior,2024-06-18,,ACTIVE
+E0382,Ava Romero,ava.romero.e0382@workbridge.com,,United Kingdom,Europe Middle East Africa,Data,Project Manager,Junior,2025-02-11,,active
+E0383,Lucas Perez,lucas.perez.e0383@workbridge.com,M,Spain,Europe Middle East Africa,HR,Data Analyst,Senior,2025-02-22,,active
+E0384,Ava Martinez,ava.martinez.e0384@workbridge.com,Unknown,Canada,North America,Operations,Software Engineer,Semi Senior,2023-07-10,,ACTIVE
+E0385,Emily Gonzalez,emily.gonzalez.e0385@workbridge.com,f,Germany,EMEA,Operations,Data Engineer,Semi Senior,2026-10-31,,active
+E0386,Mia Martinez,mia.martinez.e0386@workbridge.com,,United States,north america,Data,Business Analyst,Junior,2026-06-20,,active
+E0387,Mateo Taylor,mateo.taylor.e0387@workbridge.com,f,Australia,Asia Pacific,Finance,Data Engineer,Semi Senior,2026-06-25,,ACTIVE
+E0388,Emma Ruiz,emma.ruiz.e0388@workbridge.com,M,Colombia,Latam,Finance,Data Analyst,Lead,2025-05-16,,ACTIVE
+E0389,Lucia Johnson,lucia.johnson.e0389@workbridge.com,M,Spain,Europe Middle East Africa,Operations,Data Engineer,Senior,2023-01-25,,Active
+E0390,Camila Brown,camila.brown.e0390@workbridge.com,M,Canada,NA,Finance,HR Specialist,Senior,2025-08-23,,Active
+E0391,Isabella Silva,isabella.silva.e0391@workbridge.com,Unknown,United Kingdom,EMEA,Customer Success,Software Engineer,Semi Senior,2024-07-26,,ACTIVE
+E0392,Isabella Taylor,isabella.taylor.e0392@workbridge.com,Female,Singapore,Asia Pacific,Finance,Data Engineer,Senior,2024-02-06,,ACTIVE
+E0393,Emma Sanchez,emma.sanchez.e0393@workbridge.com,f,Australia,APAC,Data,Data Engineer,Senior,2024-05-28,,ACTIVE
+E0394,Camila Anderson,camila.anderson.e0394@workbridge.com,N/A,India,Asia Pacific,Data,Project Manager,Junior,2025-07-10,,Active
+E0395,Michael Brown,michael.brown.e0395@workbridge.com,M,Netherlands,Europe,Customer Success,Business Analyst,Lead,2024-02-12,,ACTIVE
+E0396,Isabella Brown,isabella.brown.e0396@workbridge.com,N/A,India,Asia Pacific,Customer Success,Business Analyst,Lead,2025-02-19,,Active
+E0397,Ava Wilson,ava.wilson.e0397@workbridge.com,N/A,Argentina,latam,Operations,Project Manager,Senior,2023-11-28,,Active
+E0398,Isabella Davis,isabella.davis.e0398@workbridge.com,N/A,Singapore,Asia-Pacific,Customer Success,HR Specialist,Junior,2023-12-09,,active
+E0399,Michael Smith,michael.smith.e0399@workbridge.com,F,United States,north america,Data,Data Analyst,Senior,2025-03-24,2025-07-27,Terminated
+E0400,Benjamin Davis,benjamin.davis.e0400@workbridge.com,f,United States,North America,Finance,HR Specialist,Semi Senior,2026-09-03,,Active
+E0401,Emily Romero,invalid-email,N/A,United States,north america,Finance,Data Engineer,Semi Senior,2023-02-28,2025-04-28,Terminated
+E0402,Benjamin Anderson,benjamin.anderson.e0402@workbridge.com,m,Singapore,APAC,Data,Project Manager,Senior,2025-12-08,,ACTIVE
+E0403,Sofia Ruiz,sofia.ruiz.e0403@workbridge.com,F,United Kingdom,Europe,Finance,Business Analyst,Junior,2024-06-16,,active
+E0404,Martina Davis,martina.davis.e0404@workbridge.com,f,Singapore,Asia Pacific,Engineering,Project Manager,Lead,2024-09-05,2026-01-18,Terminated
+E0405,Valentina Sanchez,valentina.sanchez.e0405@workbridge.com,F,Japan,APAC,Finance,HR Specialist,Semi Senior,2023-12-01,,ACTIVE
+E0406,John Gonzalez,john.gonzalez.e0406@workbridge.com,Female,France,EMEA,Operations,Data Analyst,Lead,2026-08-21,,Active
+E0407,Sofia Lopez,sofia.lopez.e0407@workbridge.com,f,Australia,APAC,Engineering,Data Analyst,Senior,2026-06-29,,Active
+E0408,Olivia Lopez,olivia.lopez.e0408@workbridge.com,F,Germany,EMEA,Operations,Project Manager,Senior,2025-06-16,,active
+E0409,Ava Martinez,ava.martinez.e0409@workbridge.com,Female,Australia,Asia Pacific,Finance,Data Analyst,Lead,2025-08-07,,active
+E0410,Mia Davis,michael#workbridge.com,M,United States,NA,Customer Success,Data Analyst,Semi Senior,2024-05-27,,active
+E0411,Emily Sanchez,emily.sanchez.e0411@workbridge.com,N/A,India,Asia Pacific,Engineering,HR Specialist,Junior,2025-12-03,,active
+E0412,Camila Smith,camila.smith.e0412@workbridge.com,Unknown,Chile,LATAM,Engineering,HR Specialist,Lead,2025-09-12,,active
+E0413,Mia Sanchez,mia.sanchez.e0413@workbridge.com,Female,Spain,EMEA,HR,HR Specialist,Lead,2023-12-09,,ACTIVE
+E0414,Olivia Miller,maria@workbridge,m,Canada,NA,Data,Software Engineer,Semi Senior,2023-07-03,,Active
+E0415,Camila Romero,camila.romero.e0415@workbridge.com,Unknown,Brazil,LATAM,Customer Success,Project Manager,Senior,2025-09-26,,ACTIVE
+E0416,Michael Wilson,michael.wilson.e0416@workbridge.com,,Canada,NA,HR,Data Engineer,Senior,2023-03-22,,Active
+E0417,Michael Brown,michael.brown.e0417@workbridge.com,f,United Kingdom,EMEA,Finance,Software Engineer,Senior,2024-07-17,,ACTIVE
+E0418,Valentina Brown,valentina.brown.e0418@workbridge.com,f,United Kingdom,Europe,HR,Data Engineer,Senior,2023-01-02,,ACTIVE
+E0419,Emily Moore,emily.moore.e0419@workbridge.com,f,Colombia,Latin America,Operations,Project Manager,Senior,2025-03-04,,ACTIVE
+E0420,Isabella Brown,isabella.brown.e0420@workbridge.com,Female,Argentina,LATAM,Finance,Data Engineer,Junior,2025-12-07,,active
+E0421,Emily Ruiz,emily.ruiz.e0421@workbridge.com,N/A,Colombia,LATAM,Operations,Data Engineer,Junior,2026-08-07,,terminated 
+E0422,James Smith,james.smith.e0422@workbridge.com,m,Brazil,latam,Operations,HR Specialist,Junior,2026-09-04,,active
+E0423,Olivia Gonzalez,olivia.gonzalez.e0423@workbridge.com,Not specified,Netherlands,EMEA,Customer Success,Data Engineer,Lead,2023-03-25,,Active
+E0424,Liam Moore,liam.moore.e0424@workbridge.com,,United States,north america,Data,HR Specialist,Senior,2025-12-13,,ACTIVE
+E0425,Michael Sanchez,michael.sanchez.e0425@workbridge.com,N/A,Singapore,Asia-Pacific,Engineering,Business Analyst,Lead,2023-08-02,,active
+E0426,Camila Thomas,camila.thomas.e0426@workbridge.com,,France,Europe Middle East Africa,Operations,Business Analyst,Semi Senior,2026-01-31,,Active
+E0427,Camila Romero,camila.romero.e0427@workbridge.com,M,Canada,NA,Customer Success,Data Analyst,Senior,2026-01-31,,Active
+E0428,Sofia Wilson,sofia.wilson.e0428@workbridge.com,Female,Colombia,Latin America,Data,HR Specialist,Senior,2023-10-04,,Active
+E0429,Isabella Rodriguez,isabella.rodriguez.e0429@workbridge.com,m,United States,NA,Engineering,Software Engineer,Senior,2023-03-19,,unknown
+E0430,Olivia Perez,olivia.perez.e0430@workbridge.com,Male,Colombia,latam,Customer Success,HR Specialist,Junior,2025-03-29,,active
+E0431,Ava Anderson,ava.anderson.e0431@workbridge.com,M,Spain,EMEA,Engineering,HR Specialist,Junior,2026-03-26,,active
+E0432,Michael Silva,michael.silva.e0432@workbridge.com,F,India,Asia-Pacific,Customer Success,Data Engineer,Semi Senior,2024-09-16,,Active
+E0433,Daniel Martinez,daniel.martinez.e0433@workbridge.com,F,Mexico,Latin America,Finance,Data Engineer,Semi Senior,2025-07-01,,ACTIVE
+E0434,Michael Sanchez,michael.sanchez.e0434@workbridge.com,Male,Spain,Europe,HR,Project Manager,Semi Senior,2025-09-01,,active
+E0435,Lucia Gonzalez,lucia.gonzalez.e0435@workbridge.com,Unknown,Canada,NA,Data,Software Engineer,Lead,2026-02-19,,Active
+E0436,Camila Anderson,camila.anderson.e0436@workbridge.com,F,Netherlands,Europe,HR,HR Specialist,Junior,2023-07-03,2025-12-26,Terminated
+E0437,Martina Lopez,martina.lopez.e0437@workbridge.com,Male,Germany,EMEA,Engineering,HR Specialist,Senior,2024-12-17,,Active
+E0438,Martina Lopez,martina.lopez.e0438@workbridge.com,Male,United States,North America,Customer Success,Data Analyst,Senior,2023-08-19,,active
+E0439,Michael Gonzalez,michael.gonzalez.e0439@workbridge.com,f,Singapore,Asia-Pacific,Operations,Business Analyst,Lead,2023-02-16,,ACTIVE
+E0440,Daniel Smith,daniel.smith.e0440@workbridge.com,Male,United States,NA,Operations,Data Engineer,Senior,2025-02-10,,ACTIVE
+E0441,Valentina Rodriguez,valentina.rodriguez.e0441@workbridge.com,N/A,Mexico,LATAM,Data,Software Engineer,Lead,2026-09-02,,active
+E0442,Ava Taylor,ava.taylor.e0442@workbridge.com,Not specified,Canada,NA,Engineering,Business Analyst,Lead,2025-11-07,2025-11-04,terminated
+E0443,Ava Taylor,ava.taylor.e0443@workbridge.com,m,Argentina,Latam,Data,Software Engineer,Senior,2024-05-21,,Active
+E0444,Mateo Smith,mateo.smith.e0444@workbridge.com,N/A,France,Europe,Data,Business Analyst,Senior,2024-04-28,,ACTIVE
+E0445,Isabella Martinez,isabella.martinez.e0445@workbridge.com,,United States,north america,Customer Success,Business Analyst,Semi Senior,2024-11-30,,ACTIVE
+E0446,Martina Perez,martina.perez.e0446@workbridge.com,m,Japan,APAC,Engineering,HR Specialist,Semi Senior,2026-03-19,,Active
+E0447,Isabella Thomas,isabella.thomas.e0447@workbridge.com,f,United States,north america,Engineering,Software Engineer,Junior,2024-09-24,,ACTIVE
+E0448,Sofia Perez,sofia.perez.e0448@workbridge.com,M,Brazil,Latin America,Finance,HR Specialist,Senior,2024-10-12,,active
+E0449,Martina Miller,martina.miller.e0449@workbridge.com,m,United States,north america,HR,Data Engineer,Semi Senior,2023-08-07,,active
+E0450,Daniel Miller,daniel.miller.e0450@workbridge.com,m,United States,north america,Operations,Data Engineer,Lead,2025-01-05,2026-07-07,terminated
+E0451,Emma Thomas,emma.thomas.e0451@workbridge.com,F,Singapore,Asia Pacific,Engineering,HR Specialist,Semi Senior,2023-10-09,,active
+E0452,Martina Taylor,martina.taylor.e0452@workbridge.com,N/A,United States,North America,Engineering,Project Manager,Lead,2023-12-29,,Active
+E0453,Martina Silva,martina.silva.e0453@workbridge.com,Not specified,Colombia,LATAM,Finance,Project Manager,Junior,2025-02-18,,Active
+E0454,Emma Gonzalez,emma.gonzalez.e0454@workbridge.com,M,Canada,North America,Operations,Software Engineer,Lead,2023-03-22,,ACTIVE
+E0455,Daniel Lopez,daniel.lopez.e0455@workbridge.com,m,Canada,North America,Data,HR Specialist,Junior,2024-08-25,,active
+E0456,Sofia Brown,sofia.brown.e0456@workbridge.com,m,United States,north america,Engineering,Project Manager,Junior,2025-03-16,,Active
+E0457,Liam Johnson,liam.johnson.e0457@workbridge.com,Female,France,Europe Middle East Africa,Finance,HR Specialist,Senior,2026-11-17,,ACTIVE
+E0458,Martina Brown,martina.brown.e0458@workbridge.com,m,Colombia,latam,Data,Data Engineer,Senior,2025-02-25,,ACTIVE
+E0459,Emma Thomas,emma.thomas.e0459@workbridge.com,M,United States,north america,Finance,Software Engineer,Semi Senior,2023-10-24,,ACTIVE
+E0460,Sofia Romero,sofia.romero.e0460@workbridge.com,M,Brazil,LATAM,HR,Project Manager,Semi Senior,2024-02-20,2026-06-12,Terminated
+E0461,Martina Miller,martina.miller.e0461@workbridge.com,Female,Canada,north america,Operations,Business Analyst,Semi Senior,2025-07-18,,active
+E0462,Isabella Smith,isabella.smith.e0462@workbridge.com,N/A,Brazil,Latin America,Data,Data Analyst,Junior,2023-10-31,2025-12-13,terminated
+E0463,Martina Silva,martina.silva.e0463@workbridge.com,Unknown,Japan,Asia Pacific,Customer Success,Business Analyst,Senior,2023-11-27,,ACTIVE
+E0464,Olivia Thomas,olivia.thomas.e0464@workbridge.com,Not specified,Argentina,Latin America,Finance,Data Engineer,Junior,2024-09-04,,Active
+E0465,Noah Miller,noah.miller.e0465@workbridge.com,Female,France,Europe Middle East Africa,Customer Success,HR Specialist,Junior,2025-12-15,,active
+E0466,Mateo Ruiz,mateo.ruiz.e0466@workbridge.com,N/A,Australia,APAC,HR,Business Analyst,Lead,2025-05-24,,Active
+E0467,Benjamin Gonzalez,benjamin.gonzalez.e0467@workbridge.com,Female,Singapore,APAC,Finance,HR Specialist,Junior,2024-01-04,,active
+E0468,Noah Garcia,noah.garcia.e0468@workbridge.com,Unknown,Canada,north america,Operations,Software Engineer,Junior,2025-04-27,2026-06-19,TERMINATED
+E0469,Mia Perez,mia.perez.e0469@workbridge.com,M,France,Europe Middle East Africa,HR,Business Analyst,Junior,2025-11-03,,active
+E0470,Emily Taylor,emily.taylor.e0470@workbridge.com,f,United States,NA,Finance,Data Engineer,Lead,2024-11-07,,ACTIVE
+E0471,Daniel Wilson,daniel.wilson.e0471@workbridge.com,N/A,United Kingdom,Europe Middle East Africa,HR,Data Analyst,Semi Senior,2025-04-27,,active
+E0472,Sofia Perez,sofia.perez.e0472@workbridge.com,m,France,Europe Middle East Africa,Engineering,Business Analyst,Lead,2023-05-16,,Active
+E0473,Emma Rodriguez,emma.rodriguez.e0473@workbridge.com,Male,United States,North America,Engineering,Software Engineer,Lead,2024-09-23,,Active
+E0474,Camila Smith,camila.smith.e0474@workbridge.com,Female,Germany,Europe,HR,Data Analyst,Lead,2025-12-11,,active
+E0475,Daniel Wilson,daniel.wilson.e0475@workbridge.com,Male,United States,NA,HR,HR Specialist,Semi Senior,2024-11-27,,ACTIVE
+E0476,Mia Garcia,mia.garcia.e0476@workbridge.com,Male,United States,north america,HR,Data Analyst,Senior,2025-07-29,,ACTIVE
+E0477,Benjamin Garcia,benjamin.garcia.e0477@workbridge.com,N/A,India,Asia-Pacific,Engineering,Software Engineer,Semi Senior,2023-07-31,,ACTIVE
+E0478,Mia Rodriguez,mia.rodriguez.e0478@workbridge.com,Female,Canada,North America,Data,Data Analyst,Junior,2024-07-20,,Active
+E0479,Benjamin Silva,benjamin.silva.e0479@workbridge.com,Female,Canada,NA,Operations,Business Analyst,Senior,2026-01-30,,INACTIVE
+E0480,Valentina Smith,valentina.smith.e0480@workbridge.com,F,India,Asia Pacific,Engineering,HR Specialist,Lead,2023-09-24,2024-03-05,terminated
+E0481,Michael Martinez,michael.martinez.e0481@workbridge.com,m,France,EMEA,Data,HR Specialist,Lead,2024-11-11,,ACTIVE
+E0482,James Taylor,james.taylor.e0482@workbridge.com,Female,Mexico,Latam,HR,Software Engineer,Senior,2024-09-27,,ACTIVE
+E0483,James Taylor,james.taylor.e0483@workbridge.com,Female,Japan,Asia Pacific,Data,Software Engineer,Lead,2026-09-24,,Active
+E0484,Lucia Lopez,lucia.lopez.e0484@workbridge.com,Not specified,Japan,Asia Pacific,Customer Success,Data Analyst,Senior,2024-08-01,,ACTIVE
+E0485,John Davis,john.davis.e0485@workbridge.com,Unknown,Chile,Latam,Finance,Project Manager,Junior,2025-12-27,,ACTIVE
+E0486,Lucia Perez,lucia.perez.e0486@workbridge.com,Unknown,Germany,EMEA,Customer Success,HR Specialist,Junior,2026-11-22,,Active
+E0487,Michael Johnson,michael.johnson.e0487@workbridge.com,Male,India,Asia Pacific,Finance,Data Analyst,Junior,2026-04-27,,Active
+E0488,Olivia Gonzalez,olivia.gonzalez.e0488@workbridge.com,f,Australia,Asia-Pacific,Data,Data Engineer,Semi Senior,2025-10-09,,active
+E0489,Noah Gonzalez,noah.gonzalez.e0489@workbridge.com,N/A,Australia,Asia Pacific,HR,HR Specialist,Senior,2025-03-09,,Active
+E0490,Daniel Sanchez,daniel.sanchez.e0490@workbridge.com,F,Australia,APAC,Operations,Business Analyst,Junior,2023-07-02,,ACTIVE
+E0491,Lucas Thomas,lucas.thomas.e0491@workbridge.com,,Colombia,Latin America,Customer Success,Project Manager,Lead,2025-01-05,2025-12-19,terminated
+E0492,Emily Lopez,emily.lopez.e0492@workbridge.com,f,Singapore,Asia Pacific,Operations,Project Manager,Semi Senior,2026-01-21,,active
+E0493,Emily Thomas,emily.thomas.e0493@workbridge.com,Female,Germany,EMEA,Customer Success,Project Manager,Lead,2023-10-03,2024-01-03,terminated
+E0494,James Sanchez,james.sanchez.e0494@workbridge.com,Male,Japan,APAC,Finance,Business Analyst,Junior,2025-07-19,,ACTIVE
+E0495,Lucia Anderson,lucia.anderson.e0495@workbridge.com,Female,Japan,Asia-Pacific,Finance,HR Specialist,Senior,2025-10-24,,ACTIVE
+E0496,Isabella Ruiz,isabella.ruiz.e0496@workbridge.com,M,Colombia,LATAM,HR,Business Analyst,Junior,2025-09-13,,active
+E0497,Olivia Moore,olivia.moore.e0497@workbridge.com,N/A,Canada,north america,Data,Software Engineer,Junior,2026-07-15,,ACTIVE
+E0498,Ava Thomas,ava.thomas.e0498@workbridge.com,M,Singapore,Asia Pacific,Engineering,Data Analyst,Senior,2025-11-15,,ACTIVE
+E0499,Lucia Smith,lucia.smith.e0499@workbridge.com,N/A,Spain,Europe Middle East Africa,HR,Data Analyst,Senior,2026-07-12,,active
+E0500,Mateo Lopez,mateo.lopez.e0500@workbridge.com,N/A,India,Asia Pacific,Operations,Data Analyst,Junior,2023-09-17,,Active
+E0310,Camila Smith,camila.smith.e0310@workbridge.com,m,United States,North America,HR,Business Analyst,Junior,2026-04-22,,active
+E0090,Daniel Silva,daniel.silva.e0090@workbridge.com,F,Argentina,Latam,HR,Data Analyst,Senior,2025-09-02,,Active
+E0466,Mateo Ruiz,mateo.ruiz.e0466@workbridge.com,N/A,Australia,APAC,HR,Business Analyst,Lead,2025-05-24,,Active
+E0303,Lucia Miller,lucia.miller.e0303@workbridge.com,F,Mexico,Latam,HR,Data Analyst,Lead,2023-04-20,,ACTIVE
+E0379,Camila Sanchez,camila.sanchez.e0379@workbridge.com,m,Brazil,Latam,HR,Data Analyst,Junior,2023-06-27,,Active
+E0078,Lucia Smith,lucia.smith.e0078@workbridge.com,,Spain,Europe,Engineering,Business Analyst,Senior,2026-09-10,,active
+E0338,Valentina Smith,valentina.smith.e0338@workbridge.com,M,Brazil,Latin America,Engineering,Data Engineer,Senior,2023-12-22,,active
+E0229,Isabella Lopez,isabella.lopez.e0229@workbridge.com,Female,Brazil,Latin America,Engineering,HR Specialist,Lead,2025-04-22,,Active

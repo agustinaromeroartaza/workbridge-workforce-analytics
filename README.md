@@ -27,6 +27,14 @@ Raw data sources
 
 WorkBridge Solutions is a fictitious professional services company that manages distributed workforce teams assigned to different corporate clients across multiple regions.
 
+## Databricks Job Orchestration
+
+The full Bronze, Silver and Gold pipeline is orchestrated using a Databricks Job.
+
+The Job runs the notebooks sequentially, from raw ingestion to Gold validation, and can be executed manually or through a monthly schedule.
+
+For more details, see [`docs/databricks_job_orchestration.md`](docs/databricks_job_orchestration.md).
+
 ## Data Sources
 
 The project uses synthetic datasets that simulate common workforce, client, hours, cost and target data.

@@ -27,14 +27,6 @@ Raw data sources
 
 WorkBridge Solutions is a fictitious professional services company that manages distributed workforce teams assigned to different corporate clients across multiple regions.
 
-## Databricks Job Orchestration
-
-The full Bronze, Silver and Gold pipeline is orchestrated using a Databricks Job.
-
-The Job runs the notebooks sequentially, from raw ingestion to Gold validation, and can be executed manually or through a monthly schedule.
-
-For more details, see [`docs/databricks_job_orchestration.md`](docs/databricks_job_orchestration.md).
-
 ## Data Sources
 
 The project uses synthetic datasets that simulate common workforce, client, hours, cost and target data.
@@ -55,6 +47,7 @@ The project uses synthetic datasets that simulate common workforce, client, hour
 - PySpark
 - Databricks
 - Delta Lake
+- Databricks Jobs
 - Git / GitHub
 - CSV, Excel and JSON files
 - Power BI
@@ -65,7 +58,14 @@ The project uses synthetic datasets that simulate common workforce, client, hour
 workbridge-workforce-analytics/
 ├── data/
 │   └── raw/
+├── databricks/
+│   └── workbridge_job_config.yml
 ├── docs/
+│   ├── data_model.md
+│   ├── databricks_job_orchestration.md
+│   └── images/
+│       ├── databricks_job_run_success.png
+│       └── gold_data_model.png
 ├── notebooks/
 │   ├── 01_ingest_bronze.ipynb
 │   ├── 02_validate_bronze.ipynb
@@ -200,6 +200,18 @@ Output table:
 
 - `gold_quality_log`
 
+## Databricks Job Orchestration
+
+The full Bronze, Silver and Gold pipeline is orchestrated using a Databricks Job.
+
+The Job runs the notebooks sequentially, from raw ingestion to Gold validation, and can be executed manually or through a monthly schedule.
+
+The Job configuration is versioned in the repository as YAML:
+
+- `databricks/workbridge_job_config.yml`
+
+For more details, see [`docs/databricks_job_orchestration.md`](docs/databricks_job_orchestration.md).
+
 ## Data Quality Strategy
 
 The project separates data quality issues into two levels:
@@ -238,23 +250,23 @@ Rejecting clients with invalid or non-normalizable regions also causes related a
 
 ## Gold Analytical Model
 
-The Gold layer follows a dimensional model.
+The Gold layer is modeled as a dimensional analytical model for reporting.
 
-### Dimensions
+It includes four dimensions:
 
-| Dimension | Purpose |
-|---|---|
-| `dim_region` | Central region dimension used across clients, employees and facts. |
-| `dim_date` | Monthly date dimension used for period, year, quarter and month analysis. |
-| `dim_employee` | Employee dimension with model-owned `employee_key`. |
-| `dim_client` | Client dimension with model-owned `client_key`. |
+- `dim_date`
+- `dim_region`
+- `dim_employee`
+- `dim_client`
 
-### Fact tables
+And two fact tables:
 
-| Fact table | Grain | Purpose |
-|---|---|---|
-| `fact_workforce_monthly` | One row per period, employee, client and project. | Workforce hours, utilization and cost reporting. |
-| `fact_goals_monthly` | One row per period, client and region. | Business target reporting and target-vs-actual analysis. |
+- `fact_workforce_monthly`
+- `fact_goals_monthly`
+
+The implemented model follows a fact constellation schema, with a controlled snowflake-style normalization through the shared `dim_region` dimension.
+
+For more details, see [`docs/data_model.md`](docs/data_model.md).
 
 ## Surrogate Keys
 
@@ -312,31 +324,16 @@ Implemented:
 - Silver quality validation notebook.
 - Gold analytical model notebook.
 - Gold quality validation notebook.
+- Databricks Job orchestration with monthly schedule.
 - Delta tables for Bronze, Silver and Gold layers.
 - Rejected records table.
 - Bronze, Silver and Gold quality logs.
+- Gold dimensional data model documentation.
+- Job orchestration documentation and execution evidence.
 
 Pending / next steps:
 
-- Configure a Databricks Job to orchestrate all notebooks.
 - Connect Gold tables to Power BI.
 - Build the executive dashboard.
 - Create a sample exportable PDF executive report.
-- Expand technical documentation and user manual.
-
-## Databricks Job Plan
-
-After the Gold layer is finalized, the notebooks can be orchestrated using a Databricks Job.
-
-Planned execution order:
-
-```text
-01_ingest_bronze
-→ 02_validate_bronze
-→ 03_transform_silver
-→ 04_validate_silver
-→ 05_build_gold
-→ 06_validate_gold
-```
-
-This allows the full pipeline to run in sequence and ensures that downstream layers are only built after previous layers have been created and validated.
+- Expand final user-facing dashboard documentation.
